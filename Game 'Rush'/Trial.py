@@ -178,25 +178,25 @@ while 1:
         # if statement and using arithmetic operations
         if playerYPosition > 0 :
             # calculation using the arithmetic operation of subtraction
-            playerYPosition -= 0.5
+            playerYPosition -= 1
     # if statement and storing a boolean value
     if key_down == True:
         # if statement and using arithmetic operations
         if playerYPosition < screen_height - image_height:
             # calculation using the arithmetic operation of addition
-            playerYPosition += 0.5
+            playerYPosition += 1
     # if statement and storing a boolean value
     if key_left == True:
         # if statement and using arithmetic operations
         if playerXPosition > 0:
             # calculation using the arithmetic operation of subtraction
-            playerXPosition -= 0.5
+            playerXPosition -= 1
     # if statement and storing a boolean value
     if key_right == True:
         # if statement and using arithmetic operations
         if playerXPosition < screen_width - image_width:
             # calculation using the arithmetic operation of addition
-            playerXPosition += 0.5
+            playerXPosition += 1
 
     # declaring a variable and creating a bounding box for the player
     playerBox = pygame.Rect(player.get_rect())
@@ -288,13 +288,13 @@ while 1:
          
 
     # using the arithmetic operation of subtraction to make the enemy image move
-    enemy1XPosition -= 0.4
+    enemy1XPosition -= 1
     # using the arithmetic operation of subtraction to make the enemy image move
-    enemy2XPosition -= 0.3
+    enemy2XPosition -= 0.9
     # using the arithmetic operation of subtraction to make the enemy image move
-    enemy3XPosition -= 0.2
+    enemy3XPosition -= 0.7
     # using the arithmetic operation of subtraction to make the enemy image move
-    enemy4Xposition -= 0.5
+    enemy4Xposition -= 0.8
     # using the arithmetic operation of subtraction to make the prize image move
-    prizeXPosition -= 0.2
+    prizeXPosition -= 0.3
 
